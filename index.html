@@ -46,7 +46,7 @@
       }
     };
 
-    // Base de datos actualizada con los enlaces exactos que proporcionaste
+    // Base de datos completa con todos los enlaces oficiales proporcionados
     const kdramas = [
       { id: 1, title: "El juego del calamar", enTitle: "Squid Game", youtubeId: "cTpISvwP9DM", synopsis: "Cientos de jugadores cortos de dinero aceptan una extraña invitación a competir en letales juegos infantiles.", review: "Contexto: Un thriller de supervivencia extremo. Te mantendrá al borde del asiento de principio a fin.", platform: "Netflix", link: "https://www.netflix.com/title/81040344", image: "https://image.tmdb.org/t/p/w500/dDlEmu3EZVPIsptg9c8F1wFvQQ9.jpg" },
       { id: 2, title: "Aterrizaje de emergencia en tu corazón", enTitle: "Crash Landing on You", youtubeId: "GVQbeG5yW78", synopsis: "Una heredera surcoreana sufre un accidente de parapente y cae en Corea del Norte, donde un oficial intenta protegerla.", review: "Contexto: Combina romance épico, comedia y un choque cultural fascinante. Un clásico imperdible.", platform: "Netflix", link: "https://www.netflix.com/title/81159258", image: "https://image.tmdb.org/t/p/w500/vJTc49uXhZ1VpS6Gq4N3u838XFz.jpg" },
@@ -65,9 +65,9 @@
       { id: 15, title: "El monstruo de la vieja Seúl", enTitle: "Gyeongseong Creature", youtubeId: "u1slFDs6yg0", synopsis: "Durante la ocupación japonesa de Corea en 1945, dos jóvenes se enfrentan a una extraña criatura.", review: "Contexto: Excelente ambientación de época y misterio. Mezcla drama y ciencia ficción.", platform: "Netflix", link: "https://www.netflix.com/title/81577168", image: "https://image.tmdb.org/t/p/w500/b7tB2h9f4J6x6H0O8O3w1E9j0B5.jpg" },
       { id: 16, title: "Snowdrop", enTitle: "Snowdrop", youtubeId: "g8JO-wRmlEU", synopsis: "En 1987, una estudiante universitaria oculta a un hombre ensangrentado en su dormitorio en tiempos convulsos.", review: "Contexto: Intenso drama político y romántico con Jisoo de BLACKPINK.", platform: "Disney+", link: "https://www.disneyplus.com/", image: "https://image.tmdb.org/t/p/w500/eN8e2O6M3D6u0M9S2N7r7L9z1B4.jpg" },
       { id: 17, title: "Pasillos de hospital", enTitle: "Hospital Playlist", youtubeId: "KYfPX4TgS8s", synopsis: "Cinco médicos que son amigos desde la escuela enfrentan los altibajos de su profesión y vida personal.", review: "Contexto: Confortable, cálida y muy realista. Se enfoca en la amistad genuina.", platform: "Netflix", link: "https://www.netflix.com/title/81239224", image: "https://image.tmdb.org/t/p/w500/wJJJZf9HKMfwQGusC0pHUJ7TeH5.jpg" },
-      { id: 18, title: "Veinticinco, veintiuno", enTitle: "Twenty Five Twenty One", youtubeId: "WtXjGk0B27c", synopsis: "Una joven esgrimista persigue sus ambiciones y conoce a un joven que reconstruir su vida.", review: "Contexto: Nostalgia pura de los años 90s. Una carta de amor a los primeros amores y sueños.", platform: "Netflix", link: "https://www.netflix.com/title/81517168", image: "https://image.tmdb.org/t/p/w500/5mW5wHWAA3axMrEMlm7zZ86fNe3.jpg" },
-      { id: 19, title: "King the Land", enTitle: "King the Land", youtubeId: "5n7Mv46U4nQ", synopsis: "El heredero de un conglomerado choca con una dedicada empleada hotelera conocida por su sonrisa.", review: "Contexto: Romcom clásica sin complicaciones. Dulce, divertida y hermosa.", platform: "Netflix", link: "https://www.netflix.com/title/81671440", image: "https://image.tmdb.org/t/p/w500/1MfaXheNvt6UvEE3gqj2Pudn7N.jpg" },
-      { id: 20, title: "La reina de las lágrimas", enTitle: "Queen of Tears", youtubeId: "a5OqU6rP6Sg", synopsis: "La reina de los grandes almacenes y el príncipe de los supermercados atraviesan una crisis conyugal.", review: "Contexto: Explora qué pasa después del 'fueron felices para siempre' con mucha emotividad.", platform: "Netflix", link: "https://www.netflix.com/title/81707950", image: "https://image.tmdb.org/t/p/w500/t0A0PZp0f6mXU2T0Wf1g0A2T3W.jpg" }
+      { id: 18, title: "Veinticinco, veintiuno", enTitle: "Twenty Five Twenty One", youtubeId: "V9NLRnpaxeo", synopsis: "Una joven esgrimista persigue sus ambiciones y conoce a un joven que busca reconstruir su vida.", review: "Contexto: Nostalgia pura de los años 90s. Una carta de amor a los primeros amores y sueños.", platform: "Netflix", link: "https://www.netflix.com/title/81517168", image: "https://image.tmdb.org/t/p/w500/5mW5wHWAA3axMrEMlm7zZ86fNe3.jpg" },
+      { id: 19, title: "King the Land", enTitle: "King the Land", youtubeId: "aGMMc91uLjQ", synopsis: "El heredero de un conglomerado choca con una dedicada empleada hotelera conocida por su sonrisa.", review: "Contexto: Romcom clásica sin complicaciones. Dulce, divertida y hermosa.", platform: "Netflix", link: "https://www.netflix.com/title/81671440", image: "https://image.tmdb.org/t/p/w500/1MfaXheNvt6UvEE3gqj2Pudn7N.jpg" },
+      { id: 20, title: "La reina de las lágrimas", enTitle: "Queen of Tears", youtubeId: "ZUhHqdMknqA", synopsis: "La reina de los grandes almacenes y el príncipe de los supermercados atraviesan una crisis conyugal.", review: "Contexto: Explora qué pasa después del 'fueron felices para siempre' con mucha emotividad.", platform: "Netflix", link: "https://www.netflix.com/title/81707950", image: "https://image.tmdb.org/t/p/w500/t0A0PZp0f6mXU2T0Wf1g0A2T3W.jpg" }
     ];
 
     const HeroVideoYouTubeBackground = () => {
@@ -277,6 +277,7 @@
       ]);
       const [newReview, setNewReview] = useState({ name: '', text: '', drama: 'General' });
       const [activeTrailer, setActiveTrailer] = useState(null);
+      const [isPlayingMusic, setIsPlayingMusic] = useState(false);
 
       useEffect(() => { localStorage.setItem('kdrama_watchlist', JSON.stringify(watchlist)); }, [watchlist]);
       useEffect(() => { localStorage.setItem('kdrama_votes', JSON.stringify(votes)); }, [votes]);
@@ -304,7 +305,7 @@
       const percentB = 100 - percentA;
 
       return (
-        <div className="min-h-screen pb-12">
+        <div className="min-h-screen pb-12 relative">
           <header className="bg-white shadow-sm sticky top-0 z-50">
             <div className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
               <h1 className="text-3xl font-extrabold text-pink-600 flex items-center">
@@ -398,6 +399,25 @@
             </section>
             
           </main>
+
+          {/* REPRODUCTOR DE MÚSICA DE FONDO FLOTANTE */}
+          <div className="fixed bottom-4 right-4 z-40 bg-white shadow-xl rounded-full p-2 px-4 border-2 border-pink-300 flex items-center gap-3">
+            <span className="text-xs font-bold text-pink-600 hidden sm:inline">🎵 OST K-Drama</span>
+            <button 
+              onClick={() => setIsPlayingMusic(!isPlayingMusic)}
+              className="bg-pink-500 hover:bg-pink-600 text-white text-xs font-bold py-2 px-4 rounded-full transition-all shadow-md flex items-center gap-1 active:scale-95">
+              {isPlayingMusic ? '⏸️ Pausar Música' : '▶️ Reproducir Música'}
+            </button>
+            {isPlayingMusic && (
+              <div className="hidden">
+                <iframe 
+                  src="https://www.youtube-nocookie.com/embed/7HVv9_Q3HfI?autoplay=1&loop=1&playlist=7HVv9_Q3HfI" 
+                  allow="autoplay"
+                  frameBorder="0">
+                </iframe>
+              </div>
+            )}
+          </div>
 
           {activeTrailer && (
             <div className="fixed inset-0 bg-black bg-opacity-75 z-50 flex items-center justify-center p-4 animate-fade-in">
